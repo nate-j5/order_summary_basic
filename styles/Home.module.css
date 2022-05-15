@@ -58,37 +58,38 @@
 
 .card_2nd_container_child {
   display: flex;
-  background-color: rgb(221, 197, 240);
   border-radius: 8px;
-  width: 18em;
+  width: 17em;
   height: 75px;
   margin-top: .25em;
 }
 
 .card_2nd_container_child img {
-  height: 2.5em;
-  width: 2.5em;
+  height: 3.3em;
+  width: 3.3em;
   align-self: center;
-  margin-left: 2.4em;
+  margin-left: .1em; 
+
 }
 
 .card_2nd_container_text {
   display: flex;
   flex-direction: column;
-  padding: 0px .5em 0px .7em;
+  padding: 0px .5em 0px 1.7em;
+
 }
 
 .card_2nd_container_text h5 {
  font-size: 15px;
- font-weight: 550;
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-weight: 600;
+ font-family:'Lucida Sans', Arial, sans-serif;
  color: black;
  margin-top: 1.4em;
 }
 
 .card_2nd_container_text p {
- font-size: 11px;
- margin-top: -1.8em;
+ font-size: 12px;
+ margin-top: -1.6em;
  color: darkslategray;
 }
 
@@ -97,10 +98,13 @@
  justify-self: center;
  font-size: 10px;
  text-decoration: underline;
- margin-left: 3em;
+ margin-left: 3.1em;
  color: royalblue;
 }
 
+.card_2nd_container_child a:hover {
+  cursor: pointer;
+ }
 
 /***** 3rd Container *****/
 

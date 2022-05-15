@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -25,12 +24,10 @@ export default function Home() {
             </div>
           </div>
 
-        <div className={styles.card_3rd_container}>
-          <button>Proceed to Payment</button>
-          <a href="/">Cancel</a>
-       </div>
-
-
+          <div className={styles.card_3rd_container}>
+            <button>Proceed to Payment</button>
+            <a href="/">Cancel</a>
+          </div>
         </div>
       </div>
     </div>
